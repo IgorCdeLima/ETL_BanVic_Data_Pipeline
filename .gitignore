@@ -8,3 +8,5 @@ dbdata/
 .vscode
 dbdata/
 venv/
+logs/
+config/airflow.cfg

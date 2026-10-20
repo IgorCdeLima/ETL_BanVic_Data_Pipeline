@@ -77,7 +77,7 @@ def insert_proposta_credito(ti):
 with DAG(
     dag_id='lh_de_igor_cechinato_de_lima',
     start_date=pendulum.datetime(2025,1,1),
-    schedule= "22 * * * *",
+    schedule= "35 7 * * *",
     catchup=False, 
     max_active_runs= 1,
     tags=['benvic']
